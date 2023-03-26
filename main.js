@@ -1,7 +1,8 @@
 // Navbar on scroll
 window.addEventListener('scroll', ()=>{
-    document.querySelector('nav').classList.toggle
-    ('window-scroll', window.scrollY > 10)
+    const navMenu = document.querySelector('.nav__menu');
+    navMenu.classList.toggle('scroll', window.scrollY > 10);
+    document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 10);
 })
 
 
