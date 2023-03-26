@@ -1,0 +1,37 @@
+body{
+    background: #D8D6D5;
+}
+
+.about__container {
+    padding-top: 2rem;
+    padding-left: 5%;  
+    padding-right: 5%;  
+}
+
+.about__container h2 {
+    text-align: left;
+    text-decoration: underline;
+    padding-top: 1.5rem;
+    color: red;
+}
+
+.about__container p {
+    padding-left: 3%;
+    padding-bottom: 3rem;
+}
+
+.about__video {
+    border: 9px outset var(--color-danger);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px ;
+    height: 380px ;
+}
+
+#video {
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
