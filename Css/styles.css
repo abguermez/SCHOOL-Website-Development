@@ -152,6 +152,19 @@ nav button{
 
 }
 
+/* =========Navbar on scroll============== */
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+.nav__menu.scroll a {
+    color: var(--color-bg1);
+}
+.nav__menu.scroll a:hover {
+    color: white;
+}
+
 /* ====== Header =====*/
 header {
     position: relative;
@@ -159,13 +172,6 @@ header {
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
-}
-
-/* Navbar on scroll */
-.window-scroll{
-    background: var(--color-primary);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    opacity: 0.8;
 }
 
 .header__container {
